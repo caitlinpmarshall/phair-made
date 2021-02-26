@@ -18,6 +18,10 @@
 
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&family=Pacifico&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/ab9b8c0c61.js" crossorigin="anonymous"></script>
 
   <meta name="theme-color" content="#fafafa">
 </head>
@@ -34,55 +38,87 @@
       <nav>
         <ul>
           <li><a href="#shop"><span>shop</span></a></li>
-          <li><a href="#testimonials">reviews</a></li>
+          <li><a href="#reviews">reviews</a></li>
           <li><a href="#about">about</a></li>
         </ul>
       </nav>
     </div><!-- header content wrapper ends -->
   </header>
   <main>
-    <section class="hero">
+    <section id="hero">
       <div class="content-wrapper">
         <p>hero image goes here</p>
       </div>
     </section>
-    <section class="shop">
+    <section id="shop">
       <div class="content-wrapper">
         <h3>shop</h3>
         <div class="shop-buttons">
-          <p>ETSY</p>
-          <p>LOCAL</p>
+          <div class="etsy">
+            <p><a href="https://www.etsy.com/shop/PhairMade" target="_BLANK">ETSY</a></p>
+          </div>
+          <div class="local">
+            <p><a href="https://lisamariesmadeinmaine.com/" target="_BLANK">LOCAL</a></p>
+          </div>
         </div>
       </div>
     </section>
-    <section class="gallery">
+    <section id="gallery">
       <div class="content-wrapper">
         <div class="gallery-items">
-          <p>waterproof</p>
-          <p>easy on</p>
-          <p>handmade</p>
+          <div class="gallery-item-1">
+            <p>waterproof</p>
+          </div>
+          <div class="gallery-item-2">
+            <p>easy on</p>
+          </div>
+          <div class="gallery-item-3">
+            <p>handcrafted</p>
+          </div>
         </div>
       </div>
     </section>
-    <section class="testimonials">
+    <section id="reviews">
       <div class="content-wrapper">
         <h3>customer reviews</h3>
-        <p>“Cupcake ipsum dolor sit amet tart gingerbread sweet. Tart caramels pudding macaroon biscuit oat cake.”</p>
-        <p>“Topping gummi bears dessert pie soufflé cheesecake. Marshmallow icing lemon drops muffin tart toffee chupa chups.”</p>
-        <p class="fontawesome-icon">insert heart icon here
-          <i class="fas fa-campground"></i>
+        <div class="reviews-items">
+          <p>“Cupcake ipsum dolor sit amet tart gingerbread sweet. Tart caramels pudding macaroon biscuit oat cake.”</p>
+          <p>“Topping gummi bears dessert pie soufflé cheesecake. Marshmallow icing lemon drops muffin tart toffee chupa chups.”</p>
+        </div>
+        <p class="fontawesome-icon">
+          <i class="fas fa-heart"></i>
         </p>
       </div>
     </section>
-    <section class="about">
-      <div class="content-wrapper"></div>
+    <section id="about">
+      <div class="content-wrapper">
+        <h3>about us</h3>
+        <article>
+          <figure>
+            <img src="" alt="Phair Made workshop"/>
+          </figure>
+          <div>
+            <p>“Carrot cake pudding sweet sugar plum. Cake toffee gummies jelly halvah chocolate sugar plum gummies. Toffee sweet roll.</p>
+            <p>Brownie halvah lemon drops carrot cake sweet roll pastry. Gummies lollipop tart fruitcake dragée lemon drops fruitcake cupcake. Liquorice tootsie roll bonbon lollipop oat cake biscuit halvah bear claw. Lemon drops pie muffin sweet roll cake lemon drops candy tart sugar plum.”</p>     
+          </div>
+        </article>
+      </div>
     </section>
-    <section class="contact">
-      <div class="content-wrapper"></div>
+    <section id="contact">
+      <div class="content-wrapper">
+        <h3>get in touch</h3>
+        <address>
+          <p>
+            <a href="mailto:phairmade@gmail.com">phairmade@gmail.com</a>
+          </p>
+        </address>
+      </div>
     </section>
   </main>
   <footer>
-    <div class="content-wrapper"></div>
+    <div class="content-wrapper">
+      <p>&copy; Phair Made 2021 | site design CPM</p>
+    </div>
   </footer>
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
   <script src="js/plugins.js"></script>

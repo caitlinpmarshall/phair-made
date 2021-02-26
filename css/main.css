@@ -86,6 +86,259 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+/* general styles */
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1em;
+  color: #333;
+}
+
+h3 {
+  font-family: 'Pacifico', cursive;
+  font-size: 2em;
+  margin: 1.2em 0;
+}
+
+ul, 
+ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+}
+
+figure {
+  margin: 0;
+}
+
+address {
+  font-style: normal;
+}
+
+.content-wrapper {
+  width: 90%;
+}
+
+/* MOBILE header styles --------------------------------------------------- */
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+header h1 {
+  font-family: 'Pacifico', cursive;
+  font-size: 2.25em;
+  color: #333;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+header h2 {
+  margin: 0;
+  text-align: center;
+  font-size: 1.25em;
+}
+
+header .logo {}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px;
+}
+
+nav ul li {
+  padding: 0 20px;
+  font-size: 1.75em;
+}
+
+nav span {
+  color: #EB5E28;
+}
+
+/* MOBILE main styles ----------------------------------------------------- */
+main {}
+
+#hero {}
+
+#hero .content-wrapper {}
+
+#shop {
+  background-color: #DAEFF1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#shop .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding-bottom: 64px;
+}
+
+#shop h3 {
+  color: #EB5E28;
+}
+
+.shop-buttons {}
+
+.shop-buttons p, a {
+
+}
+
+.etsy {
+  background-color: #457B9D;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 225px;
+  margin: 32px;
+}
+
+.etsy a {
+  color: #fff;
+  font-size: 2em;
+  font-weight: 700;
+}
+
+.local {
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 225px;
+  margin: 32px;
+}
+
+.local a {
+  color:#457B9D;
+  font-size: 2em;
+  font-weight: 700;
+}
+
+#gallery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#gallery .content-wrapper {}
+
+.gallery-items {}
+
+.gallery-items p {
+  color: #333;
+  font-size: 2.25em;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.gallery-item-1 {
+  background-color: #457B9D;
+}
+
+#reviews {
+  background-color: #DAEFF1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#reviews .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding-bottom: 64px;
+}
+
+.fontawesome-icon {
+  color: #EB5E28;
+  font-size: 1.5em;
+}
+
+#about {
+  background-color: #457B9D;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#about .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding-bottom: 64px;
+}
+
+#about article {}
+
+#contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#contact .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding-bottom: 64px;
+}
+
+#contact h3, #contact p, #contact a {
+  color: #457B9D;
+}
+
+/* MOBILE footer styles ------------------------------------------ */
+footer {
+  background-color: #DAEFF1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
 
 /* ==========================================================================
    Helper classes
