@@ -274,7 +274,8 @@ nav span {
   flex-flow: row wrap;
 }
 
-.gallery-items {}
+.gallery-items {
+}
 
 .gallery-items p {
   color: #333;
@@ -284,7 +285,15 @@ nav span {
 }
 
 .gallery-item-1 {
-  background-color: #457B9D;
+  background: url(../img/waterproof.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #reviews {
