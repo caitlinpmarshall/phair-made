@@ -87,6 +87,10 @@ textarea {
    Author's custom styles
    ========================================================================== */
 /* general styles */
+body, html {
+  height: 100%;
+}
+
 html {
   font-size: 16px;
 }
@@ -182,11 +186,23 @@ nav span {
 }
 
 /* MOBILE main styles ----------------------------------------------------- */
-main {}
 
-#hero {}
+.hero-area {
+  background: url(../img/zoey-icy-branch.png);
+  height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
 
-#hero .content-wrapper {}
+/*figure out how to make hero image grow nicely on each screen */
+
+.features {
+  width: 100%;
+  height: 40px;
+  background: #fff;
+}
 
 #shop {
   background-color: #DAEFF1;
@@ -250,7 +266,13 @@ main {}
   align-items: center;
 }
 
-#gallery .content-wrapper {}
+#gallery .content-wrapper {
+  border: 1px solid #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
 
 .gallery-items {}
 
