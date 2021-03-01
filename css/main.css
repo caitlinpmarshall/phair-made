@@ -267,34 +267,77 @@ nav span {
 }
 
 #gallery .content-wrapper {
-  border: 1px solid #000;
+  border: 2px solid #000;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   flex-flow: row wrap;
+  height: 100%;
+  width: 100%;
+  margin: 0 5%;
+  overflow: auto;
+  text-align: center;
 }
+
+/* .grid {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: flex-start;
+    height: 100%;
+    width: 90%;
+    margin: 0 5%;
+    overflow: auto;
+    z-index: 0;
+    text-align: center;
+}
+*/
 
 .gallery-items {
 }
+
+/* .grid .grid-item {
+    display: block;
+    width: 25%;
+}
+*/
 
 .gallery-items p {
   color: #333;
   font-size: 2.25em;
   text-transform: uppercase;
   text-align: center;
+
 }
 
+/* .illustration-one, .illustration-two, etc {
+  width: 15.5vw;
+height: 10em;
+margin-bottom: 1em;
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+}
+*/
+
 .gallery-item-1 {
+  border: 1px solid #000;
   background: url(../img/waterproof.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 400px;
-  width: 400px;
+  height: 360px;
+  width: 100%;
+  margin-bottom: 1em;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
+/* .illustration-five {
+    background-image: url('https://codegreer.com/paintmonkey/ArtGallery/FineArtandIllustration/Giraffe-Ink-and-Watercolor.jpg');
+}
+*/
 
 #reviews {
   background-color: #DAEFF1;
