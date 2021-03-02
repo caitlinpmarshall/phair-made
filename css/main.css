@@ -89,16 +89,15 @@ textarea {
 /* general styles */
 body, html {
   height: 100%;
-}
-
-html {
-  font-size: 16px;
+  font-size: 18px;
 }
 
 body {
   font-family: 'Josefin Sans', sans-serif;
   font-size: 1em;
-  color: #333;
+  color: #262626;
+  margin: 0 auto;
+  overflow: auto;
 }
 
 h3 {
@@ -115,7 +114,7 @@ ol {
 }
 
 a {
-  color: #333;
+  color: #262626;
   text-decoration: none;
 }
 
@@ -129,10 +128,6 @@ figure {
 
 address {
   font-style: normal;
-}
-
-.content-wrapper {
-  width: 90%;
 }
 
 /* MOBILE header styles --------------------------------------------------- */
@@ -152,7 +147,7 @@ header .content-wrapper {
 header h1 {
   font-family: 'Pacifico', cursive;
   font-size: 2.25em;
-  color: #333;
+  color: #262626;
   margin-bottom: 0;
   text-align: center;
 }
@@ -186,6 +181,9 @@ nav span {
 }
 
 /* MOBILE main styles ----------------------------------------------------- */
+main {
+  overflow: auto;
+}
 
 .hero-area {
   background: url(../img/zoey-icy-branch.png);
@@ -224,10 +222,11 @@ nav span {
   color: #EB5E28;
 }
 
-.shop-buttons {}
+.shop-buttons {
+}
 
-.shop-buttons p, a {
-
+.etsy p, .local p {
+  padding-top: .5em;
 }
 
 .etsy {
@@ -243,7 +242,10 @@ nav span {
   color: #fff;
   font-size: 2em;
   font-weight: 700;
+
 }
+
+/* why is the text SLIGHTLY lifted? Is it because it wants an underline there? Is there a better work around here? */
 
 .local {
   background-color: #fff;
@@ -264,13 +266,14 @@ nav span {
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: auto;
 }
 
+/*
 #gallery .content-wrapper {
-  border: 2px solid #000;
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   flex-flow: row wrap;
   height: 100%;
   width: 100%;
@@ -278,6 +281,7 @@ nav span {
   overflow: auto;
   text-align: center;
 }
+*/
 
 /* .grid {
     display: flex;
@@ -294,6 +298,12 @@ nav span {
 */
 
 .gallery-items {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
 }
 
 /* .grid .grid-item {
@@ -303,8 +313,8 @@ nav span {
 */
 
 .gallery-items p {
-  color: #333;
-  font-size: 2.25em;
+  color: #262626;
+  font-size: 2.5em;
   text-transform: uppercase;
   text-align: center;
 
@@ -321,14 +331,25 @@ background-position: center;
 */
 
 .gallery-item-1 {
-  border: 1px solid #000;
-  background: url(../img/waterproof.png);
+  background: linear-gradient(rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.25)), url(../img/waterproof.png);
+}
+
+.gallery-item-2 {
+  background: linear-gradient(rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.25)), url(../img/nat-cover-face.png);
+}
+
+.gallery-item-3 {
+  background: linear-gradient(rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.25)), url(../img/dinos.png);
+}
+
+.gallery-item-1, .gallery-item-2, .gallery-item-3 {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 360px;
-  width: 100%;
-  margin-bottom: 1em;
+  width: 90%;
+  max-width: 360px;
+  margin: 1em;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -347,6 +368,7 @@ background-position: center;
 }
 
 #reviews .content-wrapper {
+  width: 90%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -369,6 +391,7 @@ background-position: center;
 }
 
 #about .content-wrapper {
+  width: 90%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -379,6 +402,12 @@ background-position: center;
 
 #about article {}
 
+#about img {
+  height: 300px;
+  width: 300px;
+  margin: 1em;
+}
+
 #contact {
   display: flex;
   justify-content: center;
@@ -386,6 +415,7 @@ background-position: center;
 }
 
 #contact .content-wrapper {
+  width: 90%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -407,6 +437,7 @@ footer {
 }
 
 footer .content-wrapper {
+  width: 90%;
   display: flex;
   justify-content: center;
   align-items: center;
