@@ -87,8 +87,7 @@ textarea {
    Author's custom styles
    ========================================================================== */
 /* general styles */
-body, html {
-  height: 100%;
+html {
   font-size: 18px;
 }
 
@@ -96,7 +95,6 @@ body {
   font-family: 'Josefin Sans', sans-serif;
   font-size: 1em;
   color: #262626;
-  margin: 0 auto;
   overflow: auto;
 }
 
@@ -181,9 +179,7 @@ nav span {
 }
 
 /* MOBILE main styles ----------------------------------------------------- */
-main {
-  overflow: auto;
-}
+
 
 .hero-area {
   background: url(../img/zoey-icy-branch.png);
@@ -269,33 +265,6 @@ main {
   overflow: auto;
 }
 
-/*
-#gallery .content-wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
-  height: 100%;
-  width: 100%;
-  margin: 0 5%;
-  overflow: auto;
-  text-align: center;
-}
-*/
-
-/* .grid {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    align-content: flex-start;
-    height: 100%;
-    width: 90%;
-    margin: 0 5%;
-    overflow: auto;
-    z-index: 0;
-    text-align: center;
-}
-*/
 
 .gallery-items {
   width: 100%;
@@ -306,29 +275,14 @@ main {
   flex-flow: column;
 }
 
-/* .grid .grid-item {
-    display: block;
-    width: 25%;
-}
-*/
 
 .gallery-items p {
   color: #262626;
-  font-size: 2.5em;
+  font-size: 2em;
   text-transform: uppercase;
   text-align: center;
 
 }
-
-/* .illustration-one, .illustration-two, etc {
-  width: 15.5vw;
-height: 10em;
-margin-bottom: 1em;
-background-size: cover;
-background-repeat: no-repeat;
-background-position: center;
-}
-*/
 
 .gallery-item-1 {
   background: linear-gradient(rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.25)), url(../img/waterproof.png);
@@ -346,19 +300,15 @@ background-position: center;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 360px;
+  height: 300px;
   width: 90%;
-  max-width: 360px;
+  max-width: 300px;
   margin: 1em;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-/* .illustration-five {
-    background-image: url('https://codegreer.com/paintmonkey/ArtGallery/FineArtandIllustration/Giraffe-Ink-and-Watercolor.jpg');
-}
-*/
 
 #reviews {
   background-color: #DAEFF1;
