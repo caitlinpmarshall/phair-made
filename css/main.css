@@ -491,7 +491,9 @@ footer .content-wrapper {
    ========================================================================== */
 
 @media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
+  .shop-buttons {
+    display: flex;
+  }
 }
 
 @media print,
