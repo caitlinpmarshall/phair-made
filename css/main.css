@@ -338,8 +338,12 @@ nav span {
   padding-bottom: 64px;
 }
 
-.reviews-items {
+.mobile-reviews, .more-reviews {
   margin-bottom: 2em;
+}
+
+.more-reviews {
+  font-size: 0;
 }
 
 .fontawesome-icon {
@@ -523,8 +527,12 @@ footer a {
     font-size: 1.25em;
   }
 
-  .reviews-items {
+  .mobile-reviews, .more-reviews {
     display: flex;
+  }
+
+  .more-reviews {
+    font-size: 1em;
   }
 
   .reviews-items p {
