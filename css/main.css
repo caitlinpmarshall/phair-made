@@ -338,6 +338,10 @@ nav span {
   padding-bottom: 64px;
 }
 
+.reviews-items {
+  margin-bottom: 2em;
+}
+
 .fontawesome-icon {
   color: #EB5E28;
   font-size: 1.5em;
@@ -366,6 +370,11 @@ nav span {
 #about img {
   height: 300px;
   width: 300px;
+  margin: 1em;
+}
+
+#about p {
+  text-align: left;
   margin: 1em;
 }
 
@@ -403,6 +412,10 @@ footer .content-wrapper {
   justify-content: center;
   align-items: center;
   text-align: center;
+}
+
+footer a {
+  color:#EB5E28;
 }
 
 
@@ -516,6 +529,10 @@ footer .content-wrapper {
 
   .reviews-items p {
     margin: 10px;
+  }
+
+  #about article {
+    display: flex;
   }
 }
 
