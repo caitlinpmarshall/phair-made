@@ -512,6 +512,29 @@ footer a {
    ========================================================================== */
 
 @media only screen and (min-width: 768px) {
+  header {
+    margin-bottom: 20px;
+  }
+
+  header .content-wrapper {
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  header .logo {
+    margin-left: 20px;
+  }
+
+  header nav {
+    align-items: flex-end;
+    height: 115px;
+  }
+
+  .hero-area {
+    height: 400px;
+  }
+
   .shop-buttons {
     display: flex;
   }
@@ -531,16 +554,32 @@ footer a {
     flex-flow: row wrap;
   }
 
+  .gallery-items p {
+    opacity: 0;
+  }
+
+  .gallery-item-1 {
+    background: url(../img/waterproof.png);
+  }
+  
+  .gallery-item-2 {
+    background: url(../img/nat-cover-face.png);
+  }
+  
+  .gallery-item-3 {
+    background: url(../img/dinos.png);
+  }
+
   .gallery-item-4 {
-    background: linear-gradient(rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.25)), url(../img/purple-clouds.png);
+    background: url(../img/purple-clouds.png);
   }
 
   .gallery-item-5 {
-    background: linear-gradient(rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.25)), url(../img/albie-cover-face.png);
+    background: url(../img/albie-cover-face.png);
   }
 
   .gallery-item-6 {
-    background: linear-gradient(rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.25)), url(../img/tossing-snow.png);
+    background: url(../img/tossing-snow.png);
   }
 
   
