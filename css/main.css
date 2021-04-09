@@ -98,6 +98,10 @@ body {
   overflow: auto;
 }
 
+#shop .content-wrapper, #gallery .content-wrapper, #reviews .content-wrapper, #about .content-wrapper {
+  max-width: 1200px;
+}
+
 h3 {
   font-family: 'Pacifico', cursive;
   font-size: 2em;
@@ -190,8 +194,6 @@ nav span {
   position: relative;
 }
 
-/*figure out how to make hero image grow nicely on each screen */
-
 .features {
   width: 100%;
   height: 40px;
@@ -223,7 +225,7 @@ nav span {
 }
 
 #shop .shop-text {
-  margin: 1em;
+  max-width: 900px;
 
 }
 
@@ -338,12 +340,8 @@ nav span {
   padding-bottom: 64px;
 }
 
-.mobile-reviews, .more-reviews {
+.reviews-items {
   margin-bottom: 2em;
-}
-
-.more-reviews {
-  font-size: 0;
 }
 
 .fontawesome-icon {
@@ -546,7 +544,6 @@ footer a {
 
   .features p {
     padding: 0 20px;
-    text-transform: uppercase;
     font-size: 1.25em;
   }
 
@@ -596,16 +593,16 @@ footer a {
     align-items: center;
   }
 
-  .mobile-reviews, .more-reviews {
+  .reviews-items {
     display: flex;
-  }
-
-  .more-reviews {
-    font-size: 1em;
+    flex-flow: row wrap;
+    justify-content: center;
+    text-align: left;
   }
 
   .reviews-items p {
-    margin: 10px;
+    margin: 20px;
+    width: 40%;
   }
 
   #about article {
