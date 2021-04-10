@@ -186,7 +186,7 @@ nav span {
 
 
 .hero-area {
-  background: url(../img/zoey-icy-branch.png);
+  background: url(../img/zoey-in-ocean2x.png);
   height: 300px;
   background-position: center;
   background-repeat: no-repeat;
@@ -216,7 +216,6 @@ nav span {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  text-align: center;
   padding-bottom: 64px;
 }
 
@@ -225,15 +224,14 @@ nav span {
 }
 
 #shop .shop-text {
+  margin: 1em;
   max-width: 900px;
-
-}
-
-.shop-buttons {
+  text-align: center;
 }
 
 .etsy p, .local p {
   padding-top: .5em;
+  text-align: center;
 }
 
 .etsy {
@@ -292,21 +290,26 @@ nav span {
 .gallery-items p {
   color: #262626;
   font-size: 2em;
+  font-weight: 700;
   text-transform: uppercase;
   text-align: center;
 
 }
 
 .gallery-item-1 {
-  background: linear-gradient(rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.25)), url(../img/waterproof.png);
+  background: linear-gradient(rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.25)), url(../img/mud-splash.png);
 }
 
 .gallery-item-2 {
-  background: linear-gradient(rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.25)), url(../img/nat-cover-face.png);
+  background: linear-gradient(rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.25)), url(../img/waterproof.png);
 }
 
 .gallery-item-3 {
-  background: linear-gradient(rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.25)), url(../img/dinos.png);
+  background: linear-gradient(rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.25)), url(../img/kids-walking.png);
+}
+
+.gallery-item-3 p {
+  padding: 1em;
 }
 
 .gallery-item-1, .gallery-item-2, .gallery-item-3 {
@@ -336,12 +339,15 @@ nav span {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  text-align: center;
   padding-bottom: 64px;
 }
 
 .reviews-items {
   margin-bottom: 2em;
+}
+
+.reviews-items p {
+  margin-bottom: 3em;
 }
 
 .fontawesome-icon {
@@ -556,23 +562,23 @@ footer a {
   }
 
   .gallery-item-1 {
-    background: url(../img/waterproof.png);
+    background: url(../img/mud-splash.png);
   }
   
   .gallery-item-2 {
-    background: url(../img/nat-cover-face.png);
+    background: url(../img/waterproof.png);
   }
   
   .gallery-item-3 {
-    background: url(../img/dinos.png);
+    background: url(../img/kids-walking.png);
   }
 
   .gallery-item-4 {
-    background: url(../img/purple-clouds.png);
+    background: url(../img/dino-pants.png);
   }
 
   .gallery-item-5 {
-    background: url(../img/albie-cover-face.png);
+    background: url(../img/rainpants-sand.png);
   }
 
   .gallery-item-6 {
@@ -597,7 +603,6 @@ footer a {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    text-align: left;
   }
 
   .reviews-items p {
