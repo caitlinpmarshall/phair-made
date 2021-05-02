@@ -228,7 +228,7 @@ nav span {
 }
 
 .etsy p, .local p {
-  padding-top: .5em;
+  padding: .5em .5em 0 .5em;
   text-align: center;
 }
 
@@ -261,7 +261,7 @@ nav span {
 
 .local a {
   color:#457B9D;
-  font-size: 2em;
+  font-size: 1em;
   font-weight: 700;
 }
 
@@ -546,6 +546,12 @@ footer a {
 
   .shop-buttons {
     display: flex;
+  }
+
+  .shop-buttons-retailers {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
   }
 
   .features {
