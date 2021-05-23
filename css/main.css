@@ -184,7 +184,7 @@ nav span {
 
 
 .hero-area {
-  background: url(../img/zoey-in-ocean-mobile2x.png);
+  background: url(../img/Zoey-in-ocean-custom@2x.png);
   height: 300px;
   background-position: center;
   background-repeat: no-repeat;
@@ -247,8 +247,6 @@ nav span {
   font-weight: 700;
 
 }
-
-/* why is the text SLIGHTLY lifted? Is it because it wants an underline there? Is there a better work around here? */
 
 .local {
   background-color: #fff;
@@ -536,7 +534,7 @@ footer a {
   }
 
   .hero-area {
-    background: url(../img/zoey-in-ocean2x.png);
+    background: url(../img/Zoey-in-ocean-custom@2x.png);
     height: 400px;
     background-position: center;
     background-repeat: no-repeat;
@@ -585,11 +583,11 @@ footer a {
   }
 
   .gallery-item-4 {
-    background: url(../img/dino-pants.png);
+    background: url(../img/green-raindrop-pants.png);
   }
 
   .gallery-item-5 {
-    background: url(../img/rainpants-sand.png);
+    background: url(../img/yellow-rainpants-sand.png);
   }
 
   .gallery-item-6 {
