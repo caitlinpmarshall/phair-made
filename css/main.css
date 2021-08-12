@@ -176,7 +176,7 @@ nav ul li {
   font-size: 1.5em;
 }
 
-nav span {
+nav ul li a:hover {
   color: #EB5E28;
 }
 
