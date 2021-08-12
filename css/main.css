@@ -357,6 +357,11 @@ nav ul li a:hover {
 .fontawesome-icon {
   color: #EB5E28;
   font-size: 1.5em;
+  transition: all 0.3s ease-in-out;
+}
+
+.fontawesome-icon:hover {
+  transform: scale(1.1);
 }
 
 #about {
@@ -405,6 +410,14 @@ nav ul li a:hover {
 
 #contact h3, #contact p, #contact a {
   color: #457B9D;
+}
+
+address {
+  transition: all 0.3s ease-in-out;
+}
+
+address:hover {
+  transform: scale(1.1);
 }
 
 /* MOBILE footer styles ------------------------------------------ */
