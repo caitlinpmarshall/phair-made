@@ -227,11 +227,6 @@ nav span {
   text-align: center;
 }
 
-.etsy p, .local p {
-  padding: .5em .5em 0 .5em;
-  text-align: center;
-}
-
 .etsy {
   background-color: #457B9D;
   display: flex;
@@ -239,6 +234,8 @@ nav span {
   align-items: center;
   width: 225px;
   margin: 32px;
+  border: none;
+  transition: all 0.3s ease-in-out;
 }
 
 .etsy a {
@@ -255,12 +252,23 @@ nav span {
   align-items: center;
   width: 225px;
   margin: 32px;
+  border: none;
+  transition: all 0.3s ease-in-out;
 }
 
 .local a {
   color:#457B9D;
   font-size: 1em;
   font-weight: 700;
+}
+
+.etsy p, .local p {
+  padding: .5em .5em 0 .5em;
+  text-align: center;
+}
+
+.etsy:hover, .local:hover {
+  transform: scale(1.1);
 }
 
 #gallery {
