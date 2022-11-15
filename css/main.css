@@ -180,7 +180,8 @@ nav ul li {
   font-size: 1.5em;
 }
 
-nav ul li a:hover {
+nav ul li a:hover,
+nav ul li a:focus {
   color: #EB5E28;
 }
 
@@ -271,7 +272,10 @@ nav ul li a:hover {
   text-align: center;
 }
 
-.etsy:hover, .local:hover {
+.etsy:hover, 
+.local:hover,
+.etsy:focus, 
+.local:focus {
   transform: scale(1.1);
 }
 
@@ -364,7 +368,8 @@ nav ul li a:hover {
   transition: all 0.3s ease-in-out;
 }
 
-.fontawesome-icon:hover {
+.fontawesome-icon:hover,
+.fontawesome-icon:focus {
   transform: scale(1.1);
 }
 
@@ -420,7 +425,8 @@ address {
   transition: all 0.3s ease-in-out;
 }
 
-address:hover {
+address:hover,
+address:focus {
   transform: scale(1.1);
 }
 
